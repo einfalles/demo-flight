@@ -124,7 +124,9 @@ header h1{
 .span12{
   width: 100%;
 }
-
+section {
+  width:100%;
+}
 /* For modern browsers */
 .cf:before,
 .cf:after {
@@ -148,7 +150,36 @@ header h1{
 #content,.attention, .quotes, .benefits, .ask, .team{
   margin:0;
 }
+#intro {
+  margin:40px auto;
+  width:50%;}
+  #intro p{
+    font-size:1.15em;}
+.screenshot {
+  float:left;
+  margin: 40px auto;
+  text-align: center;
+  width:50%;}
+  .screenshot img{
+    margin: 0 auto;
+    width:50%;}
+.description {
+  float:left;
+  height:100%;
+  margin:40px auto;
+  width:50%;}
+  .description h5{
+    font-size:1.1em;
+    padding-top:30px;
+    padding-right: 80px;}
+  .description h5 span{    
+    font-weight:600;}
 
+#imp{color:#d35400;}
+#outro{
+  margin:20px auto;
+  width:50%;
+}
 #container{
   min-height:100%;
   clear: both;
@@ -164,342 +195,18 @@ header h1{
   letter-spacing: 0.05em;
 }
 
-#intro{
-  margin-top:20px;
-  height:220px;
-  background:url("../img/logo@2x.png") no-repeat top center;
-  background-size:220px auto;}
-
-.shadow{
-  border-top: 1px solid rgba(211,217,216,0.1);
-  border-bottom: 1px solid rgba(0,0,0,0.4);
-  box-shadow: 0 0px 20px rgba(0,0,0,0.1);}
-
-.uh{box-shadow: inset 0 0px 20px rgba(0,0,0,0.1);}
-
-#one {
-  background: url("../img/intro_bg.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height:700px;
-  padding-bottom: 300px;
-  margin:0 auto;
-  width: 100%;}
-
-#content{
-  font-family: Lato,"Century Gothic", "Tw Cen MT", Futura, "URW Gothic L", Arial, sans-serif;
-  color: #f9f9f9;
-  font-size:1.4em;
-  font-weight:300;
-  margin:1.8em auto 1em auto;
-  text-align: center;}
-  #content p span{
-    color: #3a3a3a;
-    font-weight:700;
-    text-shadow: 0 0px 0px rgba(0,0,0,0);}
-  #content p{
-    line-height: 1.4em;
-    text-shadow: 0 1px 1px rgba(0,0,0,0.7);}
-
-.quotes{
-  font-family: Sanchez,"Century Gothic", "Tw Cen MT", Futura, "URW Gothic L", Arial, sans-serif;
-  background-color: #D3D9D8;
-  font-size:1.2em;
-  font-style: italic;
-  margin: 0 auto;
-  position: relative;}
-  .quote{
-    float:none;
-    height:100%;
-    margin:0 auto;
-    padding:40px 0;}
-  .quote div{
-    float:left;
-    min-height:100%;
-    padding-left:15%;}
-  .quote div img{
-    float: left;
-    max-height:180px;
-    min-width: 60px;
-    width:auto;}
-  .quote div p{
-    float:left;
-    padding-left:10%;
-    width:50%;}
-  .quote div p span{
-        
-  }   
-
-.benefits{
-  font-family: Lato,"Century Gothic", "Tw Cen MT", Futura, "URW Gothic L", Arial, sans-serif;
-  background-color: #f9f9f9;
-  float:none;
-  height: 100%;
-  margin: 0 auto;}
-  .benefit{
-    color: #504F55;
-    float: none;
-    margin: 0 auto;
-    padding: 50px 0;
-  }
-  .odd div{
-    float:left;
-  }
-  .odd p{
-    padding-top:20%;
-    float:left;
-    font-size:1.2em;
-    font-weight:400;
-    line-height: 1.4em;
-  }
-  .odd p span{
-    font-size: 1.6em;
-    font-weight: 700;}
-  .odd img{
-    padding-left:23%;
-    max-height:490px;
-    min-height:300px;
-    width:auto;
-    min-width:218px;
-  }
-  .even div{
-    float:left;
-  }
-  .even p{
-    padding-top:20%;
-    /*padding-left:7%;*/
-    font-size:1.2em;
-    font-weight:400;
-    line-height: 1.4em;
-  }
-  .even p span{
-    font-size: 1.6em;
-    font-weight: 700;}
-  .even img{
-    max-height: 500px;
-    min-height:300px;
-    width:auto;
-    min-width:215px;
-  }
-
-.teeme{
-  font-family: Lato,"Century Gothic", "Tw Cen MT", Futura, "URW Gothic L", Arial, sans-serif;
-  background-size: 100% auto;
-  /*background:url("../img/teeme.jpg") no-repeat top left;*/
-  background: url("../img/intro_bg.jpg") no-repeat bottom center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  font-weight:300;
-  /*height:640px;*/
-  width:100%;
-  background-color: #f9f9f9;
-  
-  }
-  .temp{
-    /*background-color: rgba(255,255,255,0.99);*/
-    border-radius: 3px;
-    font-size:1.2em;
-    /*box-shadow: 0 0 20px rgba(0,0,0,.09);*/
-    margin:35px auto;}
-  .temp div{
-    float:left;
-    padding-left:1.3%;
-  }  
-  .temp p{
-    font-family: Sanchez,"Century Gothic", "Tw Cen MT", Futura, "URW Gothic L", Arial, sans-serif;
-    color:#f9f9f9;    
-    /*float: left;*/
-    font-size: 1em;
-    line-height: 1.5em;
-    padding:1%;}
-  .teeme p span{
-    color: #3a3a3a;
-    font-weight:700;
-    text-shadow: 0 0px 0px rgba(0,0,0,0);}
-  .teeme p a{
-    font-weight:600;
-    text-decoration:none;}
-  .teeme div img {
-    margin-top:5%;
-    margin-bottom:5%;
-    float: left;
-    padding-left:1.5%;
-    border-radius: 2px;}  
-
-.foot{
-  font-family: Lato, Helvetica, Arial, sans-serif;
-  background:url("../img/divider@2x.png") no-repeat center top;
-  background-size:50%;
-  display: block;
-  position: relative;
-  width:100%;}
-  .foot p{
-    color:#bdc3c7;
-    text-align:center;
-    vertical-align: middle;
-    line-height: 3em;}
-  .foot p a{
-    color:#bdc3c7;
-    font-style: italic;
-    text-decoration: none;}
-#wufoo-z7x4m1{
-  font-family: Lato, Helvetica, Arial, sans-serif;
-  background-color:#f9f9f9;
-  border-radius: 8px;
-  padding-top:2%;
-  padding-bottom:-2%;
-  float:none;
-  margin:0 auto;
-  width:53%;
-}
-#wufoo-z7x4m1 form{
-  font-family: Lato, Helvetica, Arial, sans-serif;
-}
-img{
-  display: block;
-  max-width: 100%;
-}
-/* Buttons */
-a.move{
-  background: #3498db;
-  border: 1px solid #2980b9;
-  border-radius: 3px;
-  text-decoration: none;
-  color: #f0f0f0;
-  font: bold 12px/1 "helvetica neue", helvetica, arial, sans-serif;
-  padding: 15px 99px;
-  text-align: center;}
-  a.move:hover {
-    background: #2980b9;
-    color: #f8f8f8;
-    cursor: pointer; }
-  a.move:active {
-    background: #3498db;
-    -webkit-box-shadow: inset 0 0 1px 1px #3498db;
-    box-shadow: inset 0 0 1px 1px #3498db;
-    color: #34495e; }
-
-/* minimal
-*******************************************************************************/
-.minimal {
-  margin:0 auto;
-  background: #2ecc71;
-  border: 1px solid #27ae60;
-  border-radius: 3px;
-  color: #f0f0f0;
-  font: bold 12px/1px "helvetica neue", helvetica, arial, sans-serif;
-  padding: 8px 0 9px;
-  text-align: center;
-  width: 100%;
-  height:50px; }
-
-  .minimal:hover {
-    background: #27ae60;
-    color: #f8f8f8;
-    cursor: pointer; }
-  .minimal:active {
-    background: #1ed679;
-    -webkit-box-shadow: inset 0 0 1px 1px #1fd679;
-    box-shadow: inset 0 0 1px 1px #1ed679;
-    color: #34495e; }
-
-
-/* Mail Chimp */
-#mc_embed_signup{
-  clear: both;
-  margin:10px auto;
-  border-radius: 10px;
-  border-width: 1px;
-  border-color:#ddd;
-  width:300px;}
-
-#mc_embed_signup input{
-  color:#111;
-  font-family: Helvetica, Arial, sans-serif;
-  border-radius: 2px;
-  background-color: rgba(244,244,244,0.5);
-  float:left;
-  font-size:1em;
-  width:100%;
-  font-weight:400;
-  padding:0;
-  border:0;
-  /*border: 1px solid rgba(244,244,244,0.2);*/
-  height:30px;}
-
-.mc-field-group{
-  height:40px;}
-
-.mee input{
-  display: none;}
-
-::-webkit-input-placeholder {
-   color: black;}
-:-moz-placeholder { /* Firefox 18- */
-   color: black;}
-::-moz-placeholder {  /* Firefox 19+ */
-   color: black;}
-:-ms-input-placeholder {  
-   color: black;}
-
-
 /* MEDIA QUERIES */
 
 /* Responsify Defaults */
 
 @media screen and (max-width: 801px){
-  #wufoo-z7x4m1{width:92%;}
-  .span9, .span8{
-    width: 91.5416666667%;
-  }
+
 }
 
 @media screen and (max-width: 601px){
-  #wufoo-z7x4m1{width:92%;}
-  .span6, .span8,.span9{
-    width:100%;
-  }
-  .quote div{
-    padding:0;
-    float:none;
-  }
-  .quote div img{
-    float:none;
-    margin:0 auto;
-  }
-  .quote div p{
-    width:auto;
-    padding:0 3%;
-    float:none;
-  }
-  .odd {
-    float:none;
-  }
-  .odd img{
-    float:none;
-    padding:0;
-    margin:0 auto;
-  }
-  .odd p{
-    padding:0 3%;
-    float:none;
-  }
-  .even img{
-    margin: 0 auto;
-  }
-  .even p{
-    padding:1% 3%;
-  }
-  .temp{
-    border-radius: 0;
-  }
-  .col{
-    margin:0;
-  }
+  .description h5{
+    padding-top:5px;
+    padding-right: 20px;}
   html{
     zoom:1;
   }
